@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EC7BCE41DB54AFA00EC197A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C45F91DABF42C006CFE44 /* main.cpp */; };
+		9EC7BCE51DB54AFA00EC197A /* wordList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C460A1DABFA17006CFE44 /* wordList.cpp */; };
+		9EC7BCE61DB54AFA00EC197A /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EA34C071DAC36330036AC1A /* grid.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E8C45F41DABF42B006CFE44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E8C45F61DABF42C006CFE44 /* fis-3-wordsearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fis-3-wordsearch"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8C45F91DABF42C006CFE44 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9E8C46071DABF58B006CFE44 /* wordList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordList.h; sourceTree = "<group>"; };
+		9E8C46081DABF5F5006CFE44 /* d_except.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = d_except.h; path = ../../Headers/d_except.h; sourceTree = "<group>"; };
+		9E8C46091DABF5F5006CFE44 /* d_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = d_matrix.h; path = ../../Headers/d_matrix.h; sourceTree = "<group>"; };
+		9E8C460A1DABFA17006CFE44 /* wordList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wordList.cpp; sourceTree = "<group>"; };
+		9E8C460C1DABFF6B006CFE44 /* input15 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input15; sourceTree = "<group>"; };
+		9E8C460D1DABFF6B006CFE44 /* input30 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input30; sourceTree = "<group>"; };
+		9E8C460E1DABFF6B006CFE44 /* input50 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input50; sourceTree = "<group>"; };
+		9E8C460F1DABFF6B006CFE44 /* input250 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input250; sourceTree = "<group>"; };
+		9E8C46101DABFF6B006CFE44 /* puzzle1_size10 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = puzzle1_size10; sourceTree = "<group>"; };
+		9E8C46111DABFF6B006CFE44 /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
+		9E8C46121DABFF6B006CFE44 /* words_for_puzzle1_size10 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words_for_puzzle1_size10; sourceTree = "<group>"; };
+		9EA34C061DAC361C0036AC1A /* grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		9EA34C071DAC36330036AC1A /* grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grid.cpp; sourceTree = "<group>"; };
+		9EC7BCDA1DB51C9600EC197A /* hashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashTable.h; sourceTree = "<group>"; };
+		9EC7BCE31DB5494600EC197A /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E8C45F31DABF42B006CFE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E8C45ED1DABF42B006CFE44 = {
+			isa = PBXGroup;
+			children = (
+				9E8C45F81DABF42C006CFE44 /* fis-3-wordsearch */,
+				9E8C45F71DABF42C006CFE44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8C45F71DABF42C006CFE44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C45F61DABF42C006CFE44 /* fis-3-wordsearch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8C45F81DABF42C006CFE44 /* fis-3-wordsearch */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C45F91DABF42C006CFE44 /* main.cpp */,
+				9E8C460A1DABFA17006CFE44 /* wordList.cpp */,
+				9EA34C071DAC36330036AC1A /* grid.cpp */,
+				9E8C46071DABF58B006CFE44 /* wordList.h */,
+				9EA34C061DAC361C0036AC1A /* grid.h */,
+				9EC7BCDA1DB51C9600EC197A /* hashTable.h */,
+				9EC7BCE31DB5494600EC197A /* heap.h */,
+				9E8C46081DABF5F5006CFE44 /* d_except.h */,
+				9E8C46091DABF5F5006CFE44 /* d_matrix.h */,
+				9E8C460C1DABFF6B006CFE44 /* input15 */,
+				9E8C460D1DABFF6B006CFE44 /* input30 */,
+				9E8C460E1DABFF6B006CFE44 /* input50 */,
+				9E8C460F1DABFF6B006CFE44 /* input250 */,
+				9E8C46101DABFF6B006CFE44 /* puzzle1_size10 */,
+				9E8C46111DABFF6B006CFE44 /* wordlist.txt */,
+				9E8C46121DABFF6B006CFE44 /* words_for_puzzle1_size10 */,
+			);
+			path = "fis-3-wordsearch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8C45F51DABF42B006CFE44 /* fis-3-wordsearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8C45FD1DABF42C006CFE44 /* Build configuration list for PBXNativeTarget "fis-3-wordsearch" */;
+			buildPhases = (
+				9E8C45F21DABF42B006CFE44 /* Sources */,
+				9E8C45F31DABF42B006CFE44 /* Frameworks */,
+				9E8C45F41DABF42B006CFE44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fis-3-wordsearch";
+			productName = "fis-3-wordsearch";
+			productReference = 9E8C45F61DABF42C006CFE44 /* fis-3-wordsearch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E8C45EE1DABF42B006CFE44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Oliver Fishstein";
+				TargetAttributes = {
+					9E8C45F51DABF42B006CFE44 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E8C45F11DABF42B006CFE44 /* Build configuration list for PBXProject "fis-3-wordsearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E8C45ED1DABF42B006CFE44;
+			productRefGroup = 9E8C45F71DABF42C006CFE44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8C45F51DABF42B006CFE44 /* fis-3-wordsearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E8C45F21DABF42B006CFE44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC7BCE41DB54AFA00EC197A /* main.cpp in Sources */,
+				9EC7BCE51DB54AFA00EC197A /* wordList.cpp in Sources */,
+				9EC7BCE61DB54AFA00EC197A /* grid.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E8C45FB1DABF42C006CFE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9E8C45FC1DABF42C006CFE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9E8C45FE1DABF42C006CFE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E8C45FF1DABF42C006CFE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E8C45F11DABF42B006CFE44 /* Build configuration list for PBXProject "fis-3-wordsearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8C45FB1DABF42C006CFE44 /* Debug */,
+				9E8C45FC1DABF42C006CFE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8C45FD1DABF42C006CFE44 /* Build configuration list for PBXNativeTarget "fis-3-wordsearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8C45FE1DABF42C006CFE44 /* Debug */,
+				9E8C45FF1DABF42C006CFE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E8C45EE1DABF42B006CFE44 /* Project object */;
+}
